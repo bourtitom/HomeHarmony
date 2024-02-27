@@ -1,0 +1,22 @@
+:root{
+    --CouleurPrimaire:rgb(0, 0, 0);
+    --CouleurSecondaire:#D6AD60;
+}
+
+/* Couleur du texte pour les liens de navigation */
+.navbar-nav .nav-link:hover {
+    color: var(--CouleurSecondaire);
+}
+.navbar-nav{
+    width: 100%;
+    justify-content: space-around;
+}
+.btn-outline-success{
+    color: var(--CouleurSecondaire);
+    border: 1px solid var(--CouleurSecondaire);
+}
+
+.btn-outline-success:hover , .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color: var(--CouleurSecondaire);
+    border: 1px solid var(--CouleurSecondaire);
+}
